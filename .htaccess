@@ -1,0 +1,24 @@
+php_flag display_errors on
+
+# Allow the HTTP authorization header to be used in session validations
+SetEnvIfNoCase ^Authorization$ "(.+)" HTTP_AUTHORIZATION=$1
+
+RewriteEngine On
+
+# Remove file extensions from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+# RewriteRule ^([^/]+)/?$ $1.php [L]
+RewriteRule ^(.*)$ $1.php [L]
+
+# Enable pretty URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ library.php?page=$1 [NC,L]
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^([^\.]+)/([^/]+)$ library.php?page=$1&content=$2 [NC,L]
+
+# Provide Specific Index Page (Set the default handler)
+DirectoryIndex home.php
