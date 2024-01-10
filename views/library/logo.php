@@ -8,8 +8,13 @@
 
 <div class="row mb-5">
     <div class="card col-md-4 card-border">
-        <div class="card-inner">
-
+        <div class="card-inner" onmouseover="toggleView('#imc', '#imc2')" onmouseout="toggleView('#imc', '#imc2')">
+            <img src="assets/images/logos/construct.png" id="imc">
+            <img src="assets/images/logos/construct2.png" id="imc2" class="d-none">
+        </div>
+        <div class="card-footer" class="text-center"> Download:
+            <span>&lt;<a href="assets/images/logos/logo.svg" class="link text-primary"> SVG logo</a>&gt;</span>
+            <span>&lt;<a href="assets/images/logos/logo-download.png" class="link text-primary"> PNG logo</a>&gt;</span>
         </div>
     </div>
 </div>
@@ -28,5 +33,76 @@
     <div class="col-md-12">
         <h4>Following Our Guidelines</h4>
         <p>When using our logos, it's important to follow our guidelines and best practices. These guidelines cover everything from size and placement to color and typography, and they're designed to ensure that our logos are always used in a way that's consistent with our brand identity.</p>
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-12">
+        <h4>Correct usage of the logo</h4>
+
+        <div class="row">
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/c1.png"/>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/c2.png"/>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/c3.png"/>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/c4.png"/>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/c5.png"/>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-12">
+        <h4>Permisive, but rare usage</h4>
+
+        <div class="row">
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/p1.png"/>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/p2.png"/>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-12">
+        <h4>Wrong usage of the logo</h4>
+
+        <div class="row">
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/notext.png"/>
+                <p> Don't use logo without the text  </p>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/twist.png"/>
+                <p> Do not rotate or twist logo </p>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/stretch.png"/>
+                <p> Do not stretch or skew logo </p>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/badbg.png"/>
+                <p> Don't use destructive backgrounds </p>
+            </div>
+            <div class="card col-md-2 col-sm-3 card-border m-1" style="padding:4px; text-align:center">
+                <img src="assets/images/logos/badbg2.png"/>
+                <p> Bad background contrast </p>
+            </div>
+        </div>
+        
     </div>
 </div>

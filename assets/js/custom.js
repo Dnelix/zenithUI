@@ -24,6 +24,13 @@ function changeClass(item, removeClass, putClass) {
     targetElement.addClass(putClass);
 }
 
+function toggleView(elem1, elem2=null, elem3=null, elem4=null){
+    $(elem1).toggleClass('d-none');
+    $(elem2).toggleClass('d-none');
+    $(elem3).toggleClass('d-none');
+    $(elem4).toggleClass('d-none');
+}
+
 //#######################//
 //####### SPECIFIC ######//
 //#######################//
@@ -39,4 +46,8 @@ function changeSiteTheme(theme){
         changeClass('pageBody', 'bg-dark', 'bg-white');
         changeClass('contentCard', 'bg-dark', 'bg-white');
     }
+}
+
+function changeImage(imgid, newSrc) {
+    document.getElementById(imgid).src = newSrc;
 }

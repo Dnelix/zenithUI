@@ -38,8 +38,8 @@
                                 <li class="nk-menu-item"><a href="color" class="nk-menu-link">
                                     <span class="nk-menu-icon"><em class="icon ni ni-notify"></em></span><span class="nk-menu-text">Color</span></a>
                                 </li>
-                                <li class="nk-menu-item"><a href="imagery" class="nk-menu-link">
-                                    <span class="nk-menu-icon"><em class="icon ni ni-img-fill"></em></span><span class="nk-menu-text">Imagery</span></a>
+                                <li class="nk-menu-item"><a href="icons" class="nk-menu-link">
+                                    <span class="nk-menu-icon"><em class="icon ni ni-img-fill"></em></span><span class="nk-menu-text">Icons</span></a>
                                 </li>
                                 <li class="nk-menu-item"><a href="website" class="nk-menu-link">
                                     <span class="nk-menu-icon"><em class="icon ni ni-at"></em></span><span class="nk-menu-text">Website</span></a>
